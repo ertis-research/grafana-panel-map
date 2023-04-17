@@ -1,0 +1,91 @@
+.noSpaceTop {
+    margin-top: 0px !important; 
+    padding-top: 0px !important;
+}
+
+.noSpaceBottom {
+    margin-bottom: 0px !important; 
+    padding-bottom: 0px !important;
+}
+
+.noSpaceRight {
+    margin-right: 0px !important; 
+    padding-right: 0px !important;
+}
+
+.noSpaceLeft {
+    margin-left: 0px !important; 
+    padding-left: 0px !important;
+}
+
+.noSpace {
+    margin: 0px !important; 
+    padding: 0px !important;
+}
+
+.textCenter {
+    text-align: center !important;
+}
+
+.horizontalDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.alignCenter {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.verticalDiv {
+    display: block;
+    align-items: center;
+}
+
+.tagsList {
+    height: inherit !important;
+    width: inherit !important;
+    display: flex !important;
+    flex-direction: row !important;
+    overflow-y: auto !important;
+}
+
+.wrap {
+    inline-size: min-content;
+    overflow-wrap: break-word;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 100%;
+}
+
+.wrap-hidden {
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+}
+
+.category {
+    font-size: large
+}
+
+.description {
+    font-size: medium;
+}
+
+.id {
+    font-size: small;
+}
+
+.scrollMain {
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.scrollMain::-webkit-scrollbar {
+    display: none;
+}
