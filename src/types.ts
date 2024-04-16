@@ -3,21 +3,21 @@ type SeriesSize = 'sm' | 'md' | 'lg';
 export interface SimpleOptions {
   title: string;
   viewMode: string;
-  view: IView;
+  view: InView;
   sharedView: boolean;
-  geojsons: IGeoJSON[];
+  geojsons: InGeoJSON[];
   text: string;
   showSeriesCount: boolean;
   seriesCountSize: SeriesSize;
 };
 
-export interface IGeoJSON {
+export interface InGeoJSON {
   name: string
   url: string
 };
 
 
-export interface IView {
+export interface InView {
   id: string;
   lat: number;
   lon: number;
@@ -27,7 +27,7 @@ export interface IView {
   share?: boolean;
 };
 
-export const defaultView: IView = {
+export const defaultView: InView = {
   id: "default",
   lat: 0,
   lon: 0,
