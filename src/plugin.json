@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
-  "name": "Ertis Map",
-  "id": "ertis-ertismap-panel",
+  "name": "Map",
+  "id": "ertis-map-panel",
   "info": {
-    "keywords": ["panel"],
+    "keywords": ["panel", "map"],
     "description": "Mapa",
     "author": {
-      "name": "Ertis"
+      "name": "ERTIS"
     },
     "logos": {
       "small": "img/logo.svg",
